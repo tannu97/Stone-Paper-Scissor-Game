@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(246, 238, 243);
+}
+
+.heading {
+    background-color: rgb(32, 35, 52);
+    color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: 4rem;
+}
+h{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+ 
+}
+
+.img img{
+    height: 8rem;
+    width: 8rem;
+      margin:2rem;
+      margin-top: 1rem;
+       border-radius: 50%;
+        object-fit: cover;
+        box-sizing: border-box; 
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scores p{
+    font-family :cursive;
+    font-size : 20px;
+    margin:1rem;
+    
+}
+.scores{
+    text-align: center;
+}
+
+.move{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(32, 35, 52);
+    color: white;
+
+  border-radius: 10px;
+
+  width: max-content;
+   margin: 2rem auto; 
+    padding: 0.5rem 1rem;
+  
+}
+.move p{
+    font-size: 17px;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+
+.restart {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#restartBtn {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eb93fb;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#restartBtn:hover {
+    background-color: #f5b6f1;
+}
